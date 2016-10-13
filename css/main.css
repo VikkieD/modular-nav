@@ -19,17 +19,38 @@ html {
 
 body {
   margin: 0;
-  text-align: center;
   display: inline-block;
-  background-color: #e2e2e2;
   text-decoration: none;
+  width: 100%;
+}
+
+.banner {
+  background-color: #e2e2e2;
+}
+
+h1 {
+  font: bold;
+}
+
+.btn {
+  color: #0074d9;
+  text-align: center;
 }
 
 li {
   text-align: left;
-  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 a:hover {
   background-color: #0074d9;
+  color: #fff;
+}
+
+nav li:last-child {
+  color: #fff;
 }
